@@ -1,0 +1,33 @@
+{
+  "name": "command-history",
+  "version": "1.0.0",
+  "description": "A typed undo-redo system based on the Command Object pattern",
+  "main": "dist/command-history.js",
+  "types": "dist/command-history.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "node ./node_modules/typescript/bin/tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gliese1337/command-history.git"
+  },
+  "keywords": [
+    "undo",
+    "redo",
+    "command",
+    "history"
+  ],
+  "author": "Logan R. Kearsley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gliese1337/command-history/issues"
+  },
+  "homepage": "https://github.com/gliese1337/command-history#readme",
+  "devDependencies": {
+    "typescript": "^3.3.3333"
+  }
+}
